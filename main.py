@@ -287,7 +287,7 @@ thn = datetime.datetime.now().year
 okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 #------------------[ MACHINE-SUPPORT ]---------------#
-def ilman(u):
+def wayle77(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.05)
 def clear():
 	os.system('clear')
@@ -359,7 +359,7 @@ def menu(my_name,my_id):
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
-	gh = 'IlmanRamdhaniR'
+	gh = 'wayLesiopaT'
 	cetak(nel('\tSELAMAT DATANG [yellow]%s[white] '%(my_name)))
 	cetak(nel('\tID KAMU : [green] '+str(my_id)))
 	print(f'├──[IP KAMU] : {ip}')
