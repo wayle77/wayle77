@@ -1078,7 +1078,7 @@ if __name__=='__main__':
 	except:pass
 	try:os.mkdir('CP')
 	except:pass
-	try:os.mkdir('/sdcard/ILMAN-DUMP')
+	try:os.mkdir('/sdcard/DATA-DUMP')
 	except:pass
 	try:os.system('touch .prox.txt')
 	except:pass
@@ -1086,7 +1086,7 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
-	ilman(f'\n\t{x}——> {h}ILMAN RAMDHANI RAHMAN :)')
+	wayle(f'\n\t{x}——> {h}WAYLE SIOPAT :)')
 	time.sleep(2)
 	login()
 
