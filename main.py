@@ -1086,7 +1086,7 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
-	wayle(f'\n\t{x}——> {h}WAYLE SIOPAT :)')
+	ilman(f'\n\t{x}——> {h}ILMAN RAHMAH DHANIRAHAMAN :)')
 	time.sleep(2)
 	login()
 
